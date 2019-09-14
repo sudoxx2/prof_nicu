@@ -1,0 +1,90 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* #section1 h1, h2, button, a {
+  text-align: center;
+} */
+
+#section1_wrapper {
+  background: linear-gradient( to bottom right, rgba(30, 115, 172, 0.7), rgba(203, 22, 209, 0.2)), url("fast.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+
+
+#section1 {
+  text-align: center;
+  
+}
+
+#section1 h1 {
+  font-size: 80px;
+  color: #DFDFE5;
+  padding-top: 300px;
+}
+
+#section1 h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#section4 {
+  margin-top: 5000px;
+}
+
+#section1_btn {
+  text-decoration: none;
+  color: white;
+  border-radius: 80% !important;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  #section1 h1 {
+      font-size: 5.0rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #section1 h1 {
+      font-size: 20.0rem;
+  }
+}
+
+@media (min-width: 600px) {
+  h1 {
+      font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+      font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
+      font-size: 2.2rem;
+  }
+}
+
+
