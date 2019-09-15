@@ -30,18 +30,15 @@ body {
   
 }
 
-h1 {
+#h1_section1 {
   font-size: 80px;
   color: #DFDFE5;
   padding-top: 300px;
+  display: none;
 }
 
 h2 {
   font-size: 30px;
-}
-
-#h1_name {
-  display: none;
 }
 
 #h2_role {
@@ -103,11 +100,12 @@ h2 {
 
 .flex-container {
   display: flex;
+  /* flex-wrap: wrap; */
 }
 
 #section2_wrapper {
   background-color: white;
-   height: 800px;
+   height: 700px;
   /*display: inline-block;
 	width: 500px;
 	min-height: 50px;
@@ -125,10 +123,10 @@ h2 {
 }
 
 #section2 {
-  /* margin-left: 200px;
-  margin-right: 600px;
-  padding-top: 250px; */
-  
+  margin-left: 100px;
+  /* margin-right: 50px; */
+  padding-top: 100px;
+  width: 600px;
 }
 
 #section2 h2 {
@@ -141,5 +139,30 @@ h2 {
 
 #section2-1 {
   
-  
+  margin-top: 120px;
+}
+
+img {
+  width: 30%;
+}
+
+.h1_section2 {
+  text-align: center;
+  padding-top: 110px;
+  font-size: 50px;
+}
+
+.h1_section2-1 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.section2_h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.section2_p {
+  font-size: 18px;
 }
