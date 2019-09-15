@@ -36,6 +36,18 @@ h1 {
   padding-top: 300px;
 }
 
+#h1_name {
+  display: none;
+}
+
+#h2_role {
+  display: none;
+}
+
+#see_proj_btn {
+  display: none;
+}
+
 #section1 h2 {
   font-size: 30px;
   margin-top: 10px;
@@ -43,14 +55,11 @@ h1 {
   margin-bottom: 30px;
 }
 
-#section4 {
-  margin-top: 5000px;
-}
-
 #section1_btn {
   text-decoration: none;
   color: white;
   border-radius: 80% !important;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
@@ -86,8 +95,18 @@ h1 {
   }
 }
 
-
-
+#section2_wrapper {
+  background-color: aquamarine;
+  height: 1000px;
+}
+#section3_wrapper {
+  background-color: blue;
+  height: 1000px;
+}
+#section4_wrapper {
+  background-color: brown;
+  height: 1000px;
+}
 
 /*
 @media (min-width: 768px) and (max-width: 991px) {
