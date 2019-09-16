@@ -5,3 +5,9 @@ $(document).ready(function(){
   $("#see_proj_btn").fadeIn(2500);
   
 });
+
+$(window).on('resize', function () {
+  $('.class1').toggleClass('class2', $(window).width() < 768);
+  
+  $('#size').text($(window).width())
+}).trigger('resize')
