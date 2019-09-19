@@ -19,3 +19,12 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+$(document).ready(function(){
+  if ($(window).width() < 480) {
+    $('#card1').removeClass('flip-card-inner');
+} else {
+    $('#card1').addClass('flip-card-inner');
+}
+});
+
