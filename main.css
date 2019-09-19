@@ -19,6 +19,9 @@ body {
 /* #section1 h1, h2, button, a {
   text-align: center;
 } */
+h1 {
+  margin: 0 !important;
+}
 
 #section1_wrapper {
   background: linear-gradient( to bottom right, rgba(30, 115, 172, 0.7), rgba(203, 22, 209, 0.2)), url("./assets/fast.gif");
@@ -172,12 +175,16 @@ img {
   text-align: center;
 }
 
+#section4 {
+  text-align: center;
+}
+
 .fa {
   font-size:48px !important;
 }
 
 h5 {
-  font-size: 25px;
+  font-size: 25px !important;
   margin-bottom: 15px;
   margin-top: -15px;
 }
@@ -187,6 +194,16 @@ h5 {
   /* margin-right: 50px; */
   padding-top: 170px;
   /* width: 600px; */
+}
+
+.flip-card-front h1 {
+  margin-bottom: 30px !important;
+  /* margin-top: 20px !important; */
+  padding-top: 20px;
+  font-style: bold;
+  font-weight: 400;
+  color: oldlace
+  /* background-color: aquamarine; */
 }
 
 
@@ -228,8 +245,9 @@ h5 {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #fff;
   color: black;
+  border: 5px black;
 }
 
 /* Style the back side */
@@ -237,6 +255,40 @@ h5 {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(129, 98, 98, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#citrusTop {
+  background: linear-gradient( to bottom right, rgba(12, 87, 16, 0.7), rgba(236, 236, 236, 0.2)), url("dollar.jpg");
+  margin: 0px !important;
+  height: 40%;
+}
+
+.bottomCard {
+  margin-top: 30px;
+}
+
+.backCard {
+  
+  margin-top: 50px !important;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.card-back-background {
+  background: linear-gradient( to bottom right, rgba(12, 87, 16, 0.7), rgba(236, 236, 236, 0.2)), url("dollar.jpg");
+}
+
+.w3-button {
+  border-radius: 25px;
+  width: 50%;
+}
+
+.backCard p span {
+  background-color: darkslategray;
 }
 
 @media screen and (max-width: 1024px) {
@@ -288,7 +340,7 @@ h5 {
   }
 
   #section2_wrapper {
-    height: 990px;
+    height: 1050px;
   }
 
   #section2 {
@@ -312,6 +364,16 @@ h5 {
 
   #section3_wrapper {
     height: 1700px;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: ;
+  }
+
+  .flip-card-back {
+    /* background-color: dodgerblue;
+    color: white; */
+    transform: rotateY(180deg);
   }
   
 }
