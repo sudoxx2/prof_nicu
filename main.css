@@ -366,7 +366,9 @@ h5 {
     height: 1700px;
   }
 
-  
+  .flip-card:hover {
+    transform: rotateY(0deg);
+  }
   
 
 
