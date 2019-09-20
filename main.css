@@ -267,6 +267,10 @@ h5 {
   height: 40%;
 }
 
+#citrusTop h1{
+  font-size: 40px;
+}
+
 .bottomCard {
   margin-top: 30px;
 }
@@ -275,7 +279,8 @@ h5 {
   
   margin-top: 50px !important;
   padding: 30px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  
 }
 
 .card-back-background {
@@ -284,11 +289,32 @@ h5 {
 
 .w3-button {
   border-radius: 25px;
+}
+
+#firstCardBtn {
   width: 50%;
 }
 
 .backCard p span {
   background-color: darkslategray;
+}
+
+.w3-container {
+  text-align: left;
+} 
+
+.w3-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  /* justify-content: left; */
+}
+
+#id01 img{
+
+  width: 80%;
+  height: 400px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -370,7 +396,9 @@ h5 {
     transform: rotateY(0deg);
   }
   
-
+  .flip-card-back {
+    transform: rotateY(0deg);
+  }
 
   
 }
