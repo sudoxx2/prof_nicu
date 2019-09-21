@@ -283,8 +283,31 @@ h5 {
   
 }
 
+
+.backCard-2 {
+  
+  margin-top: 50px !important;
+  padding: 30px;
+  /* margin-bottom: 20px; */
+  
+}
+
 .card-back-background {
   background: linear-gradient( to bottom right, rgba(12, 87, 16, 0.7), rgba(236, 236, 236, 0.2)), url("dollar.jpg");
+}
+
+#fasttubeTop {
+  /* background: linear-gradient( to bottom right, rgba(12, 87, 16, 0.7), rgba(236, 236, 236, 0.2)), url("./assets/fasttube_logo_2.png"); */
+  background-image: url(assets/fasttube_logo_5.png);
+  margin: 0px !important;
+  height: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-back-background-2 {
+  background: linear-gradient( to bottom right, rgba(165, 149, 9, 0.7), rgba(194, 10, 10, 0.2)), url("./assets/fasttube_logo.png");
+
 }
 
 .w3-button {
@@ -297,6 +320,10 @@ h5 {
 
 .backCard p span {
   background-color: darkslategray;
+}
+
+.backCard-2 p span {
+  background-color: rgb(58, 40, 16);
 }
 
 .w3-container {
