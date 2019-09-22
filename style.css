@@ -99,7 +99,8 @@ body {
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    /* height: calc(100vh - 50px); full screen */
+    height: 200px; 
     overflow-y: auto;
   }
 }
