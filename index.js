@@ -28,3 +28,10 @@ $(document).ready(function(){
 }
 });
 
+document.querySelector(".nav-btn").addEventListener("click",function() {
+  if( document.getElementById("see_proj_btn").style.display == "none") {
+    document.getElementById("see_proj_btn").style.display = "inline-block";
+  } else {
+    document.getElementById("see_proj_btn").style.display = "none";
+  }
+})
